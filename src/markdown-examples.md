@@ -41,10 +41,6 @@ export default {
 This is an info box.
 :::
 
-::: tip
-This is a tip.
-:::
-
 
 ```
 
