@@ -25,3 +25,8 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<script setup>
+import confetti from '../.vitepress/theme/components/confetti.vue'
+</script>
+
+<confetti />
