@@ -7,6 +7,9 @@ import mediumZoom from "medium-zoom";
 import { onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vitepress";
 
+import vitepressNprogress from 'vitepress-plugin-nprogress'
+import 'vitepress-plugin-nprogress/lib/css/index.css'
+
 export default {
   extends: DefaultTheme,
 
@@ -30,6 +33,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+
   }
 } satisfies Theme

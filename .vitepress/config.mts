@@ -10,6 +10,9 @@ export default defineConfig({
   head:[
       ['link', { rel: 'icon', href: '/icon.svg' }],
   ],
+  ssr:{
+    noExternal: ['vitepress-plugin-nprogress']
+  },
   markdown:{
     lineNumbers: true,
     container:{
