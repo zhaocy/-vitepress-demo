@@ -53,5 +53,5 @@ jobs:
     name: Deploy
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment  # 指定id
+        id: ${{ github.run_id }}  # 指定id
         uses: actions/deploy-pages@v4 # 将之前的构建产物部署到github pages中
