@@ -4,11 +4,12 @@ import sidebar from './sidebar.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/-vitepress-demo/",
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: "src",
   head:[
-      ['link', { rel: 'icon', href: '/icon.svg' }],
+      ['link', { rel: 'icon', href: '/-vitepress-demo/icon.svg' }],
   ],
   ssr:{
     noExternal: ['vitepress-plugin-nprogress']
